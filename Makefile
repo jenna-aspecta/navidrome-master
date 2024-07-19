@@ -135,6 +135,12 @@ get-music: ##@Development Download some free music from Navidrome's demo instanc
 
 ##########################################
 #### Miscellaneous
+##########################################
+#### Miscellaneous
+##########################################
+#### Miscellaneous
+##########################################
+#### Miscellaneous
 
 release:
 	@if [[ ! "${V}" =~ ^[0-9]+\.[0-9]+\.[0-9]+.*$$ ]]; then echo "Usage: make release V=X.X.X"; exit 1; fi
