@@ -1,4 +1,5 @@
 module github.com/navidrome/navidrome
+// module github.com/navidrome/navidrome
 
 go 1.22
 
