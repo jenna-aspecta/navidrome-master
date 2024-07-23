@@ -315,3 +315,12 @@ func init() {
 	}
 	rootPath = strings.TrimSuffix(file, "log/log.go")
 }
+
+func init1() {
+	defaultLogger.Level = logrus.TraceLevel
+	_, file, _, ok := runtime.Caller(0)
+	if !ok {
+		return
+	}
+	rootPath = strings.TrimSuffix(file, "log/log.go")
+}
