@@ -1,4 +1,5 @@
 module github.com/navidrome/navidrome
+
 // module github.com/navidrome/navidrome
 
 go 1.22
@@ -37,7 +38,7 @@ require (
 	github.com/mileusna/useragent v1.3.4
 	github.com/onsi/ginkgo/v2 v2.19.0
 	github.com/onsi/gomega v1.33.1
-	github.com/pelletier/go-toml/v2 v2.2.2
+	github.com/pelletier/go-toml/v2 v2.2.3
 	github.com/pocketbase/dbx v1.10.1
 	github.com/pressly/goose/v3 v3.21.1
 	github.com/prometheus/client_golang v1.19.1
