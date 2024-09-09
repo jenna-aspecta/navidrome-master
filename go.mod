@@ -1,4 +1,5 @@
 module github.com/navidrome/navidrome
+
 // module github.com/navidrome/navidrome
 
 go 1.22
@@ -49,9 +50,9 @@ require (
 	github.com/unrolled/secure v1.15.0
 	github.com/xrash/smetrics v0.0.0-20240312152122-5f08fbb34913
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
-	golang.org/x/image v0.18.0
-	golang.org/x/sync v0.7.0
-	golang.org/x/text v0.16.0
+	golang.org/x/image v0.20.0
+	golang.org/x/sync v0.8.0
+	golang.org/x/text v0.18.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
